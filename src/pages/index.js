@@ -1,9 +1,14 @@
-import RootLayout from "../../components/Layouts/RootLayout";
+import RootLayout from "@/components/Layouts/RootLayout";
+import Head from "next/head";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>This is HomePage</h1>
+      <Head>
+        <title>Next Home Page</title>
+        <meta name="My next App" description="This is my first next.js app" />
+      </Head>
+      ;<h1>This is HomePage</h1>
     </div>
   );
 };
